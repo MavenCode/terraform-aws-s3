@@ -1,5 +1,5 @@
 module "datalake_storage" {
-  source = "github.com/CoterieAI/terraform-aws-s3"
+  source = "github.com/MavenCode/terraform-aws-s3"
 
   region = var.region
   access_key = var.access_key
